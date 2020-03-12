@@ -5,9 +5,9 @@ date:   2020-03-12 09:44:00 -0500
 categories: [vRA]
 ---
 
-With the recent release of vRA 8.0, I have been receiving many questions from customers about how vRA 8 work with NSX-T. 
+With the recent release of vRA 8.0, I have been receiving many questions from customers about how vRA 8 can leverage NSX-T. 
 
-This blog series will focus on demonstrating how you can create vRA 8 blueprints that levearge NSX-T constructs. 
+This blog series will focus on demonstrating how you can create vRA 8 blueprints that utilize NSX-T constructs. 
 
 Here is a list of blogs that I am planning on creating for this series (as of March 12, 2020):
 * Part 1: vRA 8 Blueprint + Existing NSX-T Networks
