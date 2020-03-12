@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about-me/
 ---
 
 Phoebe Kim is an Advanced Customer Engagement (ACE) Architect at VMware, specializing in data center virtualization and software-defined networking. She has experience in working with companies across different industries, including healthcare, finance, and public sector/non-profit. 
