@@ -12,8 +12,8 @@ This blog series will focus on demonstrating how you can create vRA 8 blueprints
 Here is a list of blogs that I am planning on creating for this series (as of March 12, 2020):
 * Part 1: vRA 8 Blueprint + Existing NSX-T Networks
 * Part 2: vRA 8 Blueprint + On-demand Routed NSX-T Networks
-* Part 3: vRA 8 Blueprint + Existing Security Groups (Method 1)
-* Part 4: vRA 8 Blueprint + Existing Security Groups (Method 2)
+* Part 3: vRA 8 Blueprint + Existing Security Groups (vRA tag)
+* Part 4: vRA 8 Blueprint + Existing Security Groups (segment port tag)
 * Part 5: vRA 8 Blueprint + On-demand Security Groups
 * Part 6: vRA 8 Blueprint + On-demand NSX-T Load Balancer
 * Part 7: vRA 8 Blueprint + On-demand NAT NSX-T Networks
@@ -22,15 +22,15 @@ Note: the list of blogs is subject to change.
 
 ---
 
-I set up a nested lab to create the examples included in this blog series:
+I set up a nested lab to create the examples included in this blog series.
 
-#### Product Versions
+### Product Versions
 * vSphere 6.5 U3
-* vRA 8.0.1 (including vRSLCM and vRIDM)
+* vRA 8.0.1 (including vRSLCM and vIDM)
 * NSX-T 2.5.1
 * vSAN 6.6.1
 
-#### vSphere Infrastructure Overview
+### vSphere Infrastructure Overview
 2 vSAN clusters, enabled with DRS and HA:
 * Management cluster - 4 ESXi hosts
 * Compute/edge cluster - 3 ESXi hosts
