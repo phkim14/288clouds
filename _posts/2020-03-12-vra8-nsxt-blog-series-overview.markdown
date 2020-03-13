@@ -18,4 +18,26 @@ Here is a list of blogs that I am planning on creating for this series (as of Ma
 * Part 6: vRA 8 Blueprint + On-demand NSX-T Load Balancer
 * Part 7: vRA 8 Blueprint + On-demand NAT NSX-T Networks
 
-The list of blogs is subject to change.
+Note: the list of blogs is subject to change.
+
+I set up a nested lab to create the examples included in this blog series:
+
+#### Product Versions
+* vSphere 6.5 U3
+* vRA 8.0.1 (including vRSLCM and vRIDM)
+* NSX-T 2.5.1
+* vSAN 6.6.1
+
+#### vSphere Infrastructure Overview
+2 vSAN clusters, enabled with DRS and HA:
+* Management cluster - 4 ESXi hosts
+* Compute/edge cluster - 3 ESXi hosts
+
+The management cluster hosts the following appliances:
+  * vCSA 
+  * vRA appliance
+  * vRSLCM appliance 
+  * vIDM appliance 
+  * NSX-T manager
+
+The compute/edge cluster hosts all the workloads and the NSX-T edge VMs.
