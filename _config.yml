@@ -26,6 +26,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://288clouds.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 author: Phoebe Kim
+email: info.288clouds@gmail.com
 github_username:  phkim14
 linkedin_username: phoebesykim
 copyright: "288clouds.com"
