@@ -35,7 +35,7 @@ optional steps:
 
 ### Demo / Example
 
-#### Configure Existing Network IP Range
+<h4><u>Configure Existing Network IP Range</u></h4>
 1. Log into vRA Cloud Assembly.
 2. Go to "Infrastructure" > "Networks" (under Resources).
 3. Click on the existing network you want to use and make sure the information is filled out. 
@@ -48,7 +48,7 @@ optional steps:
 7. Double-check the start and end IP addresses on the range created to make sure it's correct.
 ![Step7](/assets/images/vra8-nsxt-blog-series-part1/step7.png)
 
-#### Configure Network Profile
+<h4><u>Configure Network Profile</u></h4>
 8. Go to "Infrastructure" > "Network Profiles" (under Configure) and click "+ NEW NETWORK PROFILE".
 ![Step8](/assets/images/vra8-nsxt-blog-series-part1/step8.png)
 9. Choose an account/region and give the profile a name.
@@ -57,7 +57,7 @@ optional steps:
 ![Step10](/assets/images/vra8-nsxt-blog-series-part1/step10.png)
 11. Choose the existing network(s) you would like to use in the blueprint then save.
 
-#### Create Blueprint
+<h4><u>Create Blueprint</u></h4>
 12. Go to "Blueprints" and Click "+ NEW" to create a new blueprint.
 13. Give a name to the blueprint and choose a project.
 ![Step13](/assets/images/vra8-nsxt-blog-series-part1/step13.png)
@@ -81,7 +81,7 @@ optional steps:
 ![Step23-1](/assets/images/vra8-nsxt-blog-series-part1/step23-1.png)
 ![Step23-2](/assets/images/vra8-nsxt-blog-series-part1/step23-2.png)
 
-#### Demo / Example Blueprint YAML File
+<h4><u>Demo / Example Blueprint YAML File</u></h4>
 {% highlight ruby %}
 formatVersion: 1
 inputs: {}
