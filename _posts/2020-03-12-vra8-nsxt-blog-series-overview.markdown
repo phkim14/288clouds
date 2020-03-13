@@ -20,6 +20,8 @@ Here is a list of blogs that I am planning on creating for this series (as of Ma
 
 Note: the list of blogs is subject to change.
 
+---
+
 I set up a nested lab to create the examples included in this blog series:
 
 #### Product Versions
