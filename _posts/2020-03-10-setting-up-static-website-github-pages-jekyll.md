@@ -48,6 +48,8 @@ Do this using the Terminal.
 I used [Bill Raymond's YouTube videos][billraymond-link] on how to set up GitHub Pages as a reference to customize my website. 
 I will make additional blog posts with details on how you can customize your GitHub Pages + Jekyll website.
 
+Visit [my GitHub repository][mygithubrepo-link] of this website to view my files.
+
 <h4><u>Configure a Custom Domain</u></h4>
 I bought my domain through Google Domains then created custom DNS records in Google Domains.
 
@@ -79,6 +81,7 @@ Your site is now published!
 
 [monfresh-link]: https://github.com/monfresh/laptop
 [billraymond-link]: https://www.youtube.com/user/ProjectNationBill
+[mygithubrepo-link]: https://github.com/phkim14/288clouds
 [github-link]: https://github.com
 [jekyll-sitemap-link]: https://blog.webjeda.com/jekyll-sitemap/
 [jekyll-seo-tag-link]: https://github.com/jekyll/jekyll-seo-tag
