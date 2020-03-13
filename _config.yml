@@ -38,6 +38,7 @@ google_analytics: UA-160611051-1
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
