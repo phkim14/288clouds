@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "vRA 8 + NSX-T Blog Part 1: vRA 8 Blueprint + Existing NSX-T Networks"
+title:  "vRA 8 + NSX-T Blog Series Part 1: vRA 8 Blueprint with Existing NSX-T Networks"
 date:   2020-03-13 07:48:00 -0500
 categories: [vRA]
 tags: [vRA, vRA8, NSX-T, automation]

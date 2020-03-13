@@ -10,13 +10,13 @@ With the recent release of vRA 8.0, I have been receiving many questions from cu
 This blog series will focus on demonstrating how you can create vRA 8 blueprints that utilize NSX-T constructs. 
 
 Here is a list of blogs that I am planning on creating for this series (as of March 12, 2020):
-* Part 1: vRA 8 Blueprint + Existing NSX-T Networks
-* Part 2: vRA 8 Blueprint + On-demand Routed NSX-T Networks
-* Part 3: vRA 8 Blueprint + Existing Security Groups (vRA tag)
-* Part 4: vRA 8 Blueprint + Existing Security Groups (segment port tag)
-* Part 5: vRA 8 Blueprint + On-demand Security Groups
-* Part 6: vRA 8 Blueprint + On-demand NSX-T Load Balancer
-* Part 7: vRA 8 Blueprint + On-demand NAT NSX-T Networks
+* Part 1: vRA 8 Blueprint with Existing NSX-T Networks
+* Part 2: vRA 8 Blueprint with On-demand Routed NSX-T Networks
+* Part 3: vRA 8 Blueprint with Existing Security Groups (vRA tag)
+* Part 4: vRA 8 Blueprint with Existing Security Groups (segment port tag)
+* Part 5: vRA 8 Blueprint with On-demand Security Groups
+* Part 6: vRA 8 Blueprint with On-demand NSX-T Load Balancer
+* Part 7: vRA 8 Blueprint with On-demand NAT NSX-T Networks
 
 Note: the list of blogs is subject to change.
 
