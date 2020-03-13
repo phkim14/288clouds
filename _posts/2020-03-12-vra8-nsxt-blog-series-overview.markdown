@@ -4,6 +4,7 @@ title:  "vRA 8 + NSX-T Blog Series Overview"
 description: "Learn how to leverage NSX-T with vRA 8 to automate machine deployments on existing and on-demand NSX-T networks as well as to automate micro-segmentation with NSX-T."
 date:   2020-03-12 09:44:00 -0500
 categories: [vRA]
+tags: [vRA, vRA8, NSX-T, automation]
 ---
 
 With the recent release of vRA 8.0, I have been receiving many questions from customers about how vRA 8 can leverage NSX-T. 
