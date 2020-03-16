@@ -24,11 +24,8 @@ NSX-T:
 1. Set up the existing networks with IP ranges you want to use for the machines.
 2. Create a network profile.
 3. Add existing networks you want to use in the network profile.
-4. Create a blueprint. 
-5. Drag a Cloud Agnostic Machine object onto the canvas.
-6. Drag a NSX Network object onto the canvas.
-7. Connect the machine to the network. 
-8. Edit the yml file to specify the network. 
+4. Create a blueprint with Cloud Agnostic Machine and NSX Network objects.  
+5. Specify which network you want to use by adding a constraint tag to the network object. 
 
 optional steps:
 * Create tags on the existing networks with names of your choice.
@@ -67,6 +64,8 @@ optional steps:
 ![Step14](/assets/images/vra8-nsxt-blog-series-part1/step14.png)
 15. Connect the Cloud Agnostic Machine to the NSX Network on the canvas. 
 ![Step15](/assets/images/vra8-nsxt-blog-series-part1/step15.png)
+
+<h4><u>Configure Blueprint</u></h4>
 16. On the right side in the YAML file, choose an image and size for the machine. When you click between the quotes, a dropdown menu of available options should show up.
 ![Step16](/assets/images/vra8-nsxt-blog-series-part1/step16.png)
 17. Under `- network: `, add the line `assignment: static` to give a static IP address to the machine from the IP range we've created.
