@@ -77,6 +77,8 @@ optional steps:
 21. Click "DEPLOY" to create a new deployment.
 22. Give it a deployment name, choose "Current Draft", the cick "DEPLOY".
 ![Step22](/assets/images/vra8-nsxt-blog-series-part1/step22.png)
+
+<h4><u>Verify Deployment</u></h4>
 23. Monitor the progress. Once completed, you should be able to see the deployment under "Deployments" in vRA UI as well as the new machine created in the vSphere UI.
 ![Step23](/assets/images/vra8-nsxt-blog-series-part1/step23.png)
 ![Step23-1](/assets/images/vra8-nsxt-blog-series-part1/step23-1.png)
