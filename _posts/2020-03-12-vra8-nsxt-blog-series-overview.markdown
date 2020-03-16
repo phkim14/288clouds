@@ -2,6 +2,7 @@
 layout: post
 title:  "vRA 8 + NSX-T Blog Series Overview"
 description: "Learn how to leverage NSX-T with vRA 8 to automate machine deployments on existing and on-demand NSX-T networks as well as to automate micro-segmentation with NSX-T."
+author: Phoebe Kim
 date:   2020-03-12 09:44:00 -0500
 categories: [vRA]
 tags: [vRA, vRA8, NSX-T, automation]
@@ -11,14 +12,15 @@ With the recent release of vRA 8.0, I have been receiving many questions from cu
 
 This blog series will focus on demonstrating how you can create vRA 8 blueprints that utilize NSX-T constructs. 
 
-Here is a list of blogs that I am planning on creating for this series (as of March 12, 2020):
+Here is a list of blogs that I am planning on creating for this series (as of March 15, 2020):
 * Part 1: vRA 8 Blueprint with Existing NSX-T Networks
 * Part 2: vRA 8 Blueprint with On-demand Routed NSX-T Networks
-* Part 3: vRA 8 Blueprint with Existing Security Groups (vRA tag)
-* Part 4: vRA 8 Blueprint with Existing Security Groups (segment port tag)
-* Part 5: vRA 8 Blueprint with On-demand Security Groups
-* Part 6: vRA 8 Blueprint with On-demand NSX-T Load Balancer
-* Part 7: vRA 8 Blueprint with On-demand NAT NSX-T Networks
+* Part 3: vRA 8 Blueprint with Existing Security Groups (network profile)
+* Part 4: vRA 8 Blueprint with Existing Security Groups (vRA tag)
+* Part 5: vRA 8 Blueprint with Existing Security Groups (segment port tag)
+* Part 6: vRA 8 Blueprint with On-demand Security Groups
+* Part 7: vRA 8 Blueprint with On-demand NSX-T Load Balancer
+* Part 8: vRA 8 Blueprint with On-demand NAT NSX-T Networks
 
 Note: the list of blogs is subject to change.
 

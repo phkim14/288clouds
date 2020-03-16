@@ -3,8 +3,9 @@ layout: post
 title:  "Setting Up a Static Website with GitHub Pages and Jekyll"
 description: "Learn how to set up a simple static website with GitHub Pages and Jekyll."
 date:   2020-03-10 09:44:00 -0500
+author: Phoebe Kim
 categories: [Web-Dev]
-tags: [web development, github pages, github, jekyll, static pages, free hosting]
+tags: [web development, github pages, github, jekyll, static website, static pages, free hosting]
 ---
 
 The first problem I encountered when I decided to start a blog was deciding which hosting platform I should use. 

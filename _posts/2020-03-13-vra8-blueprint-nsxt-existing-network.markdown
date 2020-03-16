@@ -2,9 +2,10 @@
 layout: post
 title:  "vRA 8 + NSX-T Blog Series Part 1: vRA 8 Blueprint with Existing NSX-T Networks"
 description: "Learn how to create a vRA 8 blueprint to deploy machines on existing NSX-T networks."
+author: Phoebe Kim
 date:   2020-03-13 07:48:00 -0500
 categories: [vRA]
-tags: [vRA, vRA8, NSX-T, automation]
+tags: [vRA, vRA8, NSX-T, existing network, logical segment, automation]
 ---
 
 You can create a vRA 8 blueprint to deploy machines on existing NSX-T networks. 
