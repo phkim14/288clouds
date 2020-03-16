@@ -47,6 +47,10 @@ Do this using the Terminal.
 
 <h4><u>Customize the Website</u></h4>
 I used [Bill Raymond's YouTube videos][billraymond-link] on how to set up GitHub Pages as a reference to customize my website. 
+He also shows you how you can preview your website locally.
+* From the Terminal, type `bundle update` to create the bundle the first time.
+* Every time you want to preview the website, type `bundle exec jekyll serve`, and once it's built successfully, you'll see the IP address in the Terminal where you can view the site. Note that the preview does not update dynamically as you change your code.
+
 I will make additional blog posts with details on how you can customize your GitHub Pages + Jekyll website.
 
 Visit [my GitHub repository][mygithubrepo-link] of this website to view my files.
