@@ -3,7 +3,7 @@ layout: post
 title:  "Customize Machine and On-demand Network Names"
 description: "Learn how to customize the machine and on-demand network names in a vRA 8 blueprint."
 author: Phoebe Kim
-date:   2020-03-15 21:30:00 -0500
+date:   2020-03-17 06:00:00 -0500
 categories: [vRA]
 tags: [vRA, vRA8, NSX-T, naming convention, names, custom properties, input, blueprint, automation]
 ---
@@ -47,13 +47,11 @@ NSX-T (if you want to use on-demand network name):
 9. Give a default value for this variable with `default:`.
 10. Do the same for a variable `network-name` under `inputs` to customize the network name.
 ![Step10](/assets/images/customize-vm-network-name-vra8-blueprint/step10.png)
-
 Note: You can also create custom inputs by clicking the tab "Inputs" and using the GUI. 
-
 11. Add `name:` properties for the machine and the network to use the input values. 
 {% highlight ruby %}
 name: '${input.<insert input variable name>}'
-{% endhightlight %}
+{% endhighlight %}
 ![Step11](/assets/images/customize-vm-network-name-vra8-blueprint/step11.png)
 
 <h4><u>Verify Deployment</u></h4>

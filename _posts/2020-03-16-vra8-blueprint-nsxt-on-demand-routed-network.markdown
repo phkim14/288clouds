@@ -52,7 +52,7 @@ optional steps:
 <h4><u>Create and Configure Blueprint</u></h4>
 11. Go to "Blueprints" and Click "+ NEW" to create a new blueprint.
 12. Give a name to the blueprint and choose a project.
-13. Drag on a Cloud Agnostic Machine and a NSX Network onto the canvas. 
+13. Drag a Cloud Agnostic Machine and a NSX Network onto the canvas. 
 14. Connect the Cloud Agnostic Machine to the NSX Network on the canvas. 
 15. On the right side in the YAML file, choose an image and size for the machine. 
 16. Under `- network: `, add the line `assignment: static` to give a static IP address to the machine.
@@ -65,7 +65,7 @@ optional steps:
 <h4><u>Verify Deployment</u></h4>
 Once the deployment is completed, you should be able to see the deployment under "Deployments" in vRA UI as well as the new machine and the new NSX-T segment created in the vSphere UI.
 
-You can also see this in the NSX-T Advanced UI. 
+You can also see this in the NSX-T Advanced UI. (Note that you cannot see this in the NSX-T Simplified UI).
 21. Log into NSX-T UI and go to the "Advanced Networking & Security" tab.
 22. Under "Networking" > "Switching", you can see the on-demand segment that has been created from the blueprint.
 ![Step22](/assets/images/vra8-nsxt-blog-series-part2/step22.png)
