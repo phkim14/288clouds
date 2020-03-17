@@ -8,7 +8,7 @@ categories: [vRA]
 tags: [vRA, vRA8, NSX-T, naming convention, names, custom properties, input, blueprint, automation]
 ---
 
-<i>Credit: Huge thanks to my colleague, Michael Patton, for working with me on this demo.</i> 
+<i>Credit: Huge thanks to my colleague, [Michael Patton][mpatton-link], for working with me on this demo.</i> 
 
 
 vRA 8 blueprint gives random names and numbers to the VMs and on-demand NSX-T networks deployed if you do not specify a naming convention. This blog will cover how you can customize the names of your VMs and on-demand NSX-T networks when they are deployed from a vRA 8 blueprint. 
@@ -88,3 +88,6 @@ resources:
       networkType: routed
       name: '${input.network-name}'
 {% endhighlight %}
+
+
+[mpatton-link]: https://www.linkedin.com/in/pattonmichael/
