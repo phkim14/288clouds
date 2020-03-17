@@ -32,6 +32,7 @@ linkedin_username: phoebesykim
 copyright: "288clouds.com"
 disclaimer: "Disclaimer: The views and opinions expressed on this blog are my own and do not reflect the views and opinions of my employer (VMware)."
 google_analytics: UA-160611051-1
+rss: RSS
 
 # Build settings
 #theme: minima
