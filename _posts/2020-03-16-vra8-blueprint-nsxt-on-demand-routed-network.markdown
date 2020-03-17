@@ -8,7 +8,7 @@ categories: [vRA]
 tags: [vRA, vRA8, NSX-T, on-demand network, routed, automation]
 ---
 
-<i>Credit: Huge thanks to my colleague, [Michael Patton][mpatton-link]{:target="_blank"}{:rel="noopener noreferrer"}, for working with me on this demo.</i> 
+<i>Credit: Huge thanks to my colleague, <a href="https://www.linkedin.com/in/pattonmichael/" target="_blank" rel="noopener noreferrer">Michael Patton</a>, for working with me on this demo.</i> 
 
 
 You can create a vRA 8 blueprint to create an on-demand routed NSX-T network and deploy machines connected to these newly created network. When you tell the blueprint to create an on-demand routed NSX-T network, vRA 8 actually creates a tier-1 gateway that connects to the pre-existing tier-0 gateway. It then creates an on-demand network and attaches it to the tier-1 gateway that it has created.
@@ -101,6 +101,3 @@ resources:
       networkType: routed
       name: '${input.network-name}'
 {% endhighlight %}
-
-
-[mpatton-link]: https://www.linkedin.com/in/pattonmichael/
