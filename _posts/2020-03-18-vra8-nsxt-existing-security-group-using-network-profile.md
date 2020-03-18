@@ -3,7 +3,7 @@ layout: post
 title:  "vRA 8 + NSX-T Blog Series Part 3: vRA 8 Blueprint with Existing Security Group (network profile)"
 description: "Learn how to create a vRA 8 blueprint to deploy machines with existing NSX-T security groups using a network profile."
 author: Phoebe Kim 
-date:   2020-03-18 20:53:00 -0500
+date:   2020-03-18 06:13:00 -0500
 categories: [vRA]
 tags: [vRA, vRA8, NSX-T, existing security group, network profile, automation]
 ---
