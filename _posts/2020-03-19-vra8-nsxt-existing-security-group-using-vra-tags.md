@@ -3,7 +3,7 @@ layout: post
 title:  "vRA 8 + NSX-T Blog Series Part 4: vRA 8 Blueprint with Existing Security Group (vRA tag)"
 description: "Learn how to create a vRA 8 blueprint to deploy machines with existing NSX-T security groups using vRA tags."
 author: Phoebe Kim 
-date:   2020-03-19 20:53:00 -0500
+date:   2020-03-19 07:53:00 -0500
 categories: [vRA]
 tags: [vRA, vRA8, NSX-T, existing security group, vRA tag, tag, automation]
 ---
