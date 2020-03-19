@@ -41,7 +41,7 @@ optional steps:
 ![Step5](/assets/images/vra8-nsxt-blog-series-part4/step5.png)
 
 <h4><u>Create and Configure Blueprint</u></h4>
-6. Go to "Blueprints" and Click "+ NEW" to create a new blueprint. (or you can choose to use an existing blueprint; if so, skip to step 12).
+6. Go to "Blueprints" and Click "+ NEW" to create a new blueprint. (or you can choose to use an existing blueprint and skip this section).
 7. Give a name to the blueprint and choose a project.
 8. Drag on a Cloud Agnostic Machine and a NSX Network onto the canvas. 
 9. Connect the Cloud Agnostic Machine to the NSX Network on the canvas.

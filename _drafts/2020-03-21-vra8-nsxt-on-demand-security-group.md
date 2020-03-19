@@ -42,7 +42,7 @@ optional steps:
 6. Save the network profile. 
 
 <h4><u>Create and Configure Blueprint</u></h4>
-7. Go to "Blueprints" and Click "+ NEW" to create a new blueprint. (or you can choose to use an existing blueprint that uses existing networks; if so, skip to step 13).
+7. Go to "Blueprints" and Click "+ NEW" to create a new blueprint. (or you can choose to use an existing blueprint that uses existing networks).
 8. Give a name to the blueprint and choose a project.
 9. Drag on a Cloud Agnostic Machine and a NSX Network onto the canvas. <b>Note that you do not need to add the Security Group object to the blueprint.</b>
 10. Connect the Cloud Agnostic Machine to the NSX Network on the canvas. 
