@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "vRA 8 + NSX-T Blog Series Part 5: vRA 8 Blueprint with Existing Security Group (vRA tag)"
+title:  "vRA 8 + NSX-T Blog Series Part 5: vRA 8 Blueprint with Existing Security Group (segment port tag)"
 description: "Learn how to create a vRA 8 blueprint to deploy machines with existing NSX-T security groups using NSX-T segment port tags."
 author: Phoebe Kim 
 date:   2020-03-20 05:02:00 -0500
