@@ -1,3 +1,5 @@
+---
+---
 /*!
  * smooth-scroll v16.1.2
  * Animate scrolling to anchor links
