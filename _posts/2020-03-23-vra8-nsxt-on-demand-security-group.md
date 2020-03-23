@@ -3,7 +3,7 @@ layout: post
 title:  "vRA 8 + NSX-T Blog Series Part 6: vRA 8 Blueprint with On-demand Security Group"
 description: "Learn how to create a vRA 8 blueprint to deploy machines in an on-demand security group using a network profile."
 author: Phoebe Kim 
-date:   2020-03-21 20:53:00 -0500
+date:   2020-03-23 04:02:00 -0500
 categories: [vRA]
 tags: [vRA, vRA8, NSX-T, security group, on-demand, on-demand security group network profile, automation]
 ---
@@ -38,7 +38,7 @@ optional steps:
 2. Choose an account/region and give the profile a name.
 3. Configure existing networks. 
 4. Go to "Network Policies" tab and select "Create an on-demand security group" radio button. 
-[Step4](/assets/images/vra8-nsxt-blog-series-part6/step4.png)
+![Step4](/assets/images/vra8-nsxt-blog-series-part6/step4.png)
 6. Save the network profile. 
 
 <h4><u>Create and Configure Blueprint</u></h4>
@@ -50,17 +50,17 @@ optional steps:
 12. Under `- network: `, add the line `assignment: static` to give a static IP address to the machine from the IP range we've created.
 13. For the network, below `networkType` add the line `constraints:` then another line `- tag:` to choose the existing network you want to use. Make sure this existing network is available in the network profile where you selected to create an on-demand security group.
 14. Choose `private` or `outbound` for `networkType` instead of `existing`.
-[Step14](/assets/images/vra8-nsxt-blog-series-part6/step14.png)
+![Step14](/assets/images/vra8-nsxt-blog-series-part6/step14.png)
 15. Click "TEST".
 16. Click "DEPLOY" to create a new deployment.
 17. Give it a deployment name, choose "Current Draft", the cick "DEPLOY".
 
 <h4><u>Verify Deployment</u></h4>
 17. Once deployed, log into NSX-T UI and go to "Advanced Networking & Security" > "Inventory" > Groups". You will see that a new security group has been created with the name starting with "isolation-securitygroup".
-[Step17](/assets/images/vra8-nsxt-blog-series-part6/step17.png)
+![Step17](/assets/images/vra8-nsxt-blog-series-part6/step17.png)
 18. Go to "Security" > "Distributed Firewall".
 19. You will see that a new firewall section has been created for the security group that has just been created. If you set the `networkType` in the blueprint as `private`, you will see that the rules reject all inbound and outbound traffic. If you set the `networkType` as `outbound`, the rules will allow outbound traffic and reject only the inbound traffic.
-[Step19](/assets/images/vra8-nsxt-blog-series-part6/step19.png)
+![Step19](/assets/images/vra8-nsxt-blog-series-part6/step19.png)
 
 <h4><u>Demo / Example Blueprint YAML File</u></h4>
 {% highlight ruby %}
