@@ -16,7 +16,7 @@ I recently had a customer who asked for some general feedback on their high-leve
 2. Configure layer-2 bridges in both NSX-V and NSX-T environments. 
 3. Migrate workloads to NSX-T environment. 
 4. Decomission NSX-V environment & remove L2 bridges in NSX-T environment.
-![Migration Plan Overview](/assets/images/using-l2-bridges-v2t-migration/overview.png)
+![Migration Plan Overview](/assets/images/using-l2-bridges-v2t-migration/overview.PNG)
 
 
 ### Considerations
