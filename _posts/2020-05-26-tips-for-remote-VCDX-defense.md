@@ -32,10 +32,10 @@ I got my (first) VCDX in January 2020 through a remote defense, and I thought it
 ![presentationpendrawing](/assets/images/vcdx-remote-defense-tips/presentationpendrawing.png)
 
 - During the design scenario, I used a blank PowerPoint presentation. I used the first slide to write out the requirements, constraints, assumptions, risks, and additional notes. 
-![designscenario](/assets/images/vcdx-remote-defense-tips/designscenario.png)
+![designscenario](/assets/images/vcdx-remote-defense-tips/designscenario.PNG)
 
 - I created a new slide every time I wanted to draw something. I practiced doing this in mock scenarios so that I got used to creating diagrams with PowerPoint shapes. I would flip back and forth the slides, and during the defense, I frequently went back to the first slide to make sure I was covering all the requirements. 
-![designscenario2](/assets/images/vcdx-remote-defense-tips/designscenario2.png)
+![designscenario2](/assets/images/vcdx-remote-defense-tips/designscenario2.PNG)
 
 
 ### Final Words
