@@ -23,19 +23,19 @@ I got my (first) VCDX in January 2020 through a remote defense, and I thought it
 ### My Setup
 - I had two monitors, a mouse, and a keyboard connected to my laptop.
 - Once in PowerPoint "Slide Show" mode, the presentation would show in one screen and the controls on the other, and I would share the screen with the presentation with the panelists.
-[setup](/assets/images/vcdx-remote-defense-tips/setup.png)
+![setup](/assets/images/vcdx-remote-defense-tips/setup.png)
 
 - During the presentation, I used the presentation pen tool in PowerPoint to whiteboard as necessary.
-[presentationpen](/assets/images/vcdx-remote-defense-tips/presentationpen.png)
+![presentationpen](/assets/images/vcdx-remote-defense-tips/presentationpen.png)
 
 - On each slide, on the top right corner, I had a symbol/image that takes me to a blank slide which I used as a whiteboard to draw things. I didn't have any fancy pens, iPad, or Surface Book so I practiced drawing in PowerPoint with my mouse using the pen tool before the presentation.
-[presentationpendrawing](/assets/images/vcdx-remote-defense-tips/presentationpendrawing.png)
+![presentationpendrawing](/assets/images/vcdx-remote-defense-tips/presentationpendrawing.png)
 
 - During the design scenario, I used a blank PowerPoint presentation. I used the first slide to write out the requirements, constraints, assumptions, risks, and additional notes. 
-[designscenario](/assets/images/vcdx-remote-defense-tips/designscenario.png)
+![designscenario](/assets/images/vcdx-remote-defense-tips/designscenario.png)
 
 - I created a new slide every time I wanted to draw something. I practiced doing this in mock scenarios so that I got used to creating diagrams with PowerPoint shapes. I would flip back and forth the slides, and during the defense, I frequently went back to the first slide to make sure I was covering all the requirements. 
-[designscenario2](/assets/images/vcdx-remote-defense-tips/designscenario2.png)
+![designscenario2](/assets/images/vcdx-remote-defense-tips/designscenario2.png)
 
 
 ### Final Words
