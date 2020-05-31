@@ -3,7 +3,7 @@ layout: post
 title:  "Remote VCDX Defense Tips"
 description: "tips for having a successful remote VCDX defense at your home."
 author: Phoebe Kim 
-date:   2020-05-26 08:53:00 -0500
+date:   2020-05-26 09:53:00 -0500
 categories: [VCDX]
 tags: [VCDX, remote defense, VCDX tips]
 ---
